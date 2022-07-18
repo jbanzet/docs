@@ -1,4 +1,7 @@
 # Node.js with webpack
+- task: DockerInstaller@0
+  inputs:
+    dockerVersion: '17.09.0-ce'
 # Build a Node.js project using the webpack CLI.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
